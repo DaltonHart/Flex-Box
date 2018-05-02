@@ -1,16 +1,37 @@
 /*----------------------------------------------
     H E L P E R S
 ------------------------------------------------*/
-/* * {
+/*{
 	box-sizing: border-box;
 }
-
+*/
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 /*----------------------------------------------
     S T Y L E S
 ------------------------------------------------*/
+
+body {
+    margin: 0 auto;
+    padding: 2em;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: #D6D1CD;
+    margin-bottom: 1em;
+}
+article{
+    padding: 1em;
+    margin: 1em;
+    background: #E5ECE9;
+
+}
+footer{
+background-color:  #C60F7B;
+clear: both;
+}
